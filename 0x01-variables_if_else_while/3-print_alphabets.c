@@ -11,18 +11,18 @@
 int main(void)
 {
 		char c = 'a';
-			while (c <= 'z')
+			if (c <= 'z')
 			{
 				putchar(c);
 				c++;
 
 			}
 			c = 'A';
-				while (c <= 'Z')
+				else if (c <= 'Z')
 				{
 					putchar(c);
 					c++;
 				}
-					('\n');
+				 putchar('\n');
 	return (0);
 }
