@@ -1,20 +1,22 @@
-#include <stdio.h>
+#include <stdlib.h>
 
 #include <time.h>
 
-#include <stdlib.h>
+#include <stdio.h>
+
+
 
 /**
  *
- *  * main - main block
+ *  * main - Prints a random number and states whether
  *
- *   * Description: Get a random number and print the number
+ *   *        it is positive, negative, or zero.
  *
- *    * and if it is positive, negative, or zero
+ *    *             
  *
- *     * Return: 0
+ *     * Return: Always 0.
  *
- *      */
+ *     */
 
 int main(void)
 
@@ -32,15 +34,15 @@ int main(void)
 
 					if (n > 0)
 
-								printf("%i is positive\n", n);
+								printf("%d is positive\n", n);
 
 						else if (n < 0)
 
-									printf("%i is negative\n", n);
+									printf("%d is negative\n", n);
 
 							else
 
-										printf("%i is zero\n", n);
+										printf("%d is zero\n", n);
 
 
 
