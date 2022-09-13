@@ -1,8 +1,8 @@
 #include "main.h"
-/*
- *  main - Entry code begins from here
- *  program return void
- */
+/**
+ * main - Entry code begins from here
+ *Return: nothing, return void
+*/
 int main(void)
 {
 	_putchar('_');
