@@ -6,5 +6,5 @@
 
 int _putchar(char c);
 char *create_array(unsgned int size, char c);
-
+char *_strdup(char *str);
 #endif
